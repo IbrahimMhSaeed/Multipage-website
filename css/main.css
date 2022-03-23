@@ -39,7 +39,6 @@ h2{
 }
 
 .nav-links{
-    flex: 1;
     text-align: right;
 }
 
@@ -47,7 +46,6 @@ h2{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    position: relative;
 }
 
 .nav-links ul li a{
@@ -547,6 +545,10 @@ h2{
     }
     .nav-links ul li{
         display: block;
+        transition-duration: 0.3s;
+    }
+    .nav-links ul li:hover{
+        transform: translateX(3px);
     }
     
     /* ------Course----- */
